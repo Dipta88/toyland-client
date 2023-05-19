@@ -28,8 +28,8 @@ const Banner = () => {
 
 
         <div className="h-14 bg-gradient-to-r from-cyan-500 to-pink-500 text-black content-center pl-20">
-        <h2 className="text-2xl bold pt-5 text-center">Inspire and Develop the Builders of Tomorrow
-        EGO play starts to release a child’s potential from the moment they pick up their first brick.</h2>
+        <h2 className="text-2xl bold pt-5 text-center">Inspire and Develop the Builders of Tomorrow,
+        LEGO play starts to release a child’s potential from the moment they pick up their first brick.</h2>
         </div>
 
         
