@@ -106,6 +106,31 @@ The brick in its present form was launched in 1958. The interlocking principle w
     </div>
     </div>
     </div>
+
+
+    <div className="stats shadow bg-warning mt-28 text-accent-content align-center ml-72 w-3/4">
+  
+  <div className="stats stats-vertical lg:stats-horizontal shadow bg-green-600 text-accent-content">
+  
+  <div className="stat text-accent-content">
+    <div className="stat-title text-accent-content">Online Orders</div>
+    <div className="stat-value text-accent-content">31K</div>
+    <div className="stat-desc text-accent-content">Jan 1st - Feb 1st</div>
+  </div>
+  
+  <div className="stat text-accent-content">
+    <div className="stat-title text-accent-content">New Users</div>
+    <div className="stat-value text-accent-content">4,200</div>
+    <div className="stat-desc text-accent-content">↗︎ 400 (22%)</div>
+  </div>
+  
+  <div className="stat accent-content text-accent-content">
+    <div className="stat-title text-accent-content">New Registers</div>
+    <div className="stat-value text-accent-content">1,200</div>
+    <div className="stat-desc text-accent-content">↘︎ 90 (14%)</div>
+  </div>
+  </div>
+</div>
              
 
     <h1 className="text-6xl text-center pt-20 pl-20 pb-10">Gallery</h1>
@@ -128,6 +153,8 @@ The brick in its present form was launched in 1958. The interlocking principle w
   <img src="/images/ph6.jpg"/>
         
   </div>
+
+
   
 </div>
   
