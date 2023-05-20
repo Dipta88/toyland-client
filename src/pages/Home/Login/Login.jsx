@@ -1,10 +1,24 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
+import { AuthContext } from '../../../providers/AuthProvider';
 
 const Login = () => {
 
     const handleLogin = event =>{
 
+        const {signIn} = useContext(AuthContext);
+
       event.preventDefault();  
+      const form = event.target;
+        const email = form.email.value;
+        const password = form.password.value;
+        console.log(email, password)
+        signIn(email, password)
+        .then(result => {
+            const user = result.user;
+            console.log(user);
+        })
+        .catch(error => console.log(error));
     }
     return (
         <div>
@@ -24,13 +38,13 @@ const Login = () => {
       <label className="label">
         <span className="label-text">Email</span>
       </label>
-      <input type="text" placeholder="email" className="input input-bordered" />
+      <input type="text" name='email' placeholder="email" className="input input-bordered" />
     </div>
     <div className="form-control">
       <label className="label">
         <span className="label-text">Password</span>
       </label>
-      <input type="text" placeholder="password" className="input input-bordered" />
+      <input type="text" name='email'  placeholder="password" className="input input-bordered" />
       <label className="label">
         <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
       </label>
@@ -42,6 +56,7 @@ const Login = () => {
       
       
       </form>
+      <p className='pt-5'>Don't have an account? <Link className='text-yellow-500' to="/signup">Sign Up</Link></p>
       </div>
     </div>
   </div>
