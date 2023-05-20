@@ -1,12 +1,12 @@
 import React from 'react';
 
-const CategoryCard3 = ({ category }) => {
+const CategoryCard4 = ({ category }) => {
   const { seller, toyName, subCategory, price, availableQuantity, viewDetailsButton } = category;
   
   return (
     <div className="card card-compact w-96 bg-base-100 shadow-xl">
       <figure>
-        <img src="/images/bp9.jpg" alt="Shoes" />
+        <img src="/images/bp11.jpg" alt="Shoes" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{seller.name}</h2>
@@ -28,5 +28,5 @@ const CategoryCard3 = ({ category }) => {
   );
 };
 
-export default CategoryCard3;
+export default CategoryCard4;
 ;

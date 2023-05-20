@@ -5,6 +5,7 @@ import CategoryCard from './CategoryCard1';
 import CategoryCard1 from './CategoryCard1';
 import CategoryCard2 from './CategoryCard2';
 import CategoryCard3 from './CategoryCard3';
+import CategoryCard4 from './CategoryCar4';
 
 const Category = () => {
   const [category, setCategory] = useState([]);
@@ -57,7 +58,11 @@ const Category = () => {
         </div>
           </TabPanel>
           <TabPanel>
-            <h2>Any content 2</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
+          {category.map((category) => (
+            <CategoryCard4 key={category._id} category={category} />
+          ))}
+        </div>
           </TabPanel>
         </Tabs>
       </div>
