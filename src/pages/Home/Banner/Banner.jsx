@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-      
+      <div className="ml-20">
         <div className="justify-between"><div className="carousel w-full">
           
         <div id="item1" className="carousel-item w-full">
@@ -161,7 +161,7 @@ The brick in its present form was launched in 1958. The interlocking principle w
 </div>
 
 
-
+</div>
 
 
 
