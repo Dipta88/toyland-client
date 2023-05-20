@@ -9,12 +9,12 @@ const CategoryCard1 = ({ category }) => {
         <img src="/images/bp7.jpg" alt="Shoes" />
       </figure>
       <div className="card-body">
-        <h2 className="card-title">{seller.name}</h2>
-        <h2 className="card-title">{toyName}</h2>
-        <h2 className="card-title">{subCategory}</h2>
-        <h2 className="card-title">Price: ${price}</h2>
-        <h2 className="card-title">Available Quantity: {availableQuantity}</h2>
-        <h2 className="card-title">
+      <h2 className="card-title text-3xl">{toyName}</h2>
+      <h2 className="card-title text-sm">{subCategory}</h2>
+        <h2 className="card-title text-x">{seller.name}</h2>
+        <h2 className="card-title text-2xl">Price: ${price}</h2>
+        <h2 className="card-title text-m">Available Quantity: {availableQuantity}</h2>
+        <h2 className="card-title text-sm text-green-600">
           <a href={viewDetailsButton} target="_blank" rel="noopener noreferrer">
             View Details
           </a>

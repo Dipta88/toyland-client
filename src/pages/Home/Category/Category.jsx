@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import CategoryCard from './CategoryCard1';
 import CategoryCard1 from './CategoryCard1';
 import CategoryCard2 from './CategoryCard2';
 import CategoryCard3 from './CategoryCard3';
@@ -40,7 +39,7 @@ const Category = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
               {category.map((category) => (
                 <CategoryCard1 key={category._id} category={category} />
-              ))}
+              ))} 
             </div>
           </TabPanel>
           <TabPanel>

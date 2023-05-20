@@ -5,7 +5,7 @@
         "name": "Alice Smith"
       },
       "toyName": "Lego Downtown",
-      "subCategory": "Educational Toys",
+     
       "price": 29.99,
       "availableQuantity": 15,
       "viewDetailsButton": "https://example.com/toys/1"
@@ -16,7 +16,7 @@
         "name": "Bob Johnson"
       },
       "toyName": "Lego APartment Building",
-      "subCategory": "Imaginative Play",
+      
       "price": 49.99,
       "availableQuantity": 8,
       "viewDetailsButton": "https://example.com/toys/2"
@@ -27,7 +27,7 @@
         "name": "Emily Brown"
       },
       "toyName": "Lego Police Staion",
-      "subCategory": "Electronic Toys",
+      
       "price": 39.99,
       "availableQuantity": 12,
       "viewDetailsButton": "https://example.com/toys/3"
@@ -38,7 +38,7 @@
         "name": "David Wilson"
       },
       "toyName": "Lego Fire Station",
-      "subCategory": "Brain Teasers",
+      
       "price": 19.99,
       "availableQuantity": 20,
       "viewDetailsButton": "https://example.com/toys/4"
@@ -49,11 +49,10 @@
         "name": "Sophia Davis"
       },
       "toyName": "Art Kit",
-      "subCategory": "Creativity and Crafts",
+     
       "price": 24.99,
       "availableQuantity": 5,
       "viewDetailsButton": "https://example.com/toys/5"
     }
   ]
-  
   
