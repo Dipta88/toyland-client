@@ -40,12 +40,8 @@ const AddAToy = () => {
     .then(data =>{
       console.log(data);
       if(data.insertId){
-        Swal.fire({
-          title: 'Success!',
-          text: 'User Added Successfully',
-          icon: 'success',
-          confirmButtonText: 'Cool'
-        });
+         
+Swal.fire('Any fool can use a computer')
         
 
       }

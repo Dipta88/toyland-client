@@ -2,7 +2,7 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Tabularrow from './Tabularrow';
 
-const AllToy = () => {
+const MyToys = () => {
   const toys = useLoaderData();
 
   return (
@@ -40,4 +40,4 @@ const AllToy = () => {
   );
 };
 
-export default AllToy;
+export default MyToys;
