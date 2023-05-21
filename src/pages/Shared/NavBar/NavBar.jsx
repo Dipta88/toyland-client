@@ -19,7 +19,7 @@ const NavBar = () => {
   return (
     <div className="navbar bg-base-100">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-4xl">ToyLand</a>
+        <a className="btn btn-ghost normal-case text-4xl"><Link to="/">LegoLand</Link></a>
         <div className="w-20 rounded-full">
           <img src="/images/logo.png" alt="Logo" />
         </div>
@@ -31,28 +31,17 @@ const NavBar = () => {
           </li>
           <li tabIndex={0}>
             <a>
-              Toys
-              <svg
-                className="fill-current"
-                xmlns="http://www.w3.org/2000/svg"
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-              >
-                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-              </svg>
+            <Link to="all-toys">All Toys</Link>
             </a>
             <ul className="p-2 bg-base-100">
-              <li>
-                <Link to="/all-toys">All Toys</Link>
-              </li>
+              
             </ul>
           </li>
           <li>
             <Link to="/blog">Blogs</Link>
           </li>
           <li>
-            <Link to="/add-toy">Add a Toy</Link>
+            <Link to="/addatoy">Add a Toy</Link>
           </li>
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">

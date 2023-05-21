@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-      <div className="ml-20">
+      <div className="">
         <div className="justify-between"><div className="carousel w-full">
           
         <div id="item1" className="carousel-item w-full">
