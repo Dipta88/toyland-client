@@ -1,4 +1,5 @@
-import React from 'react';
+
+import Swal from 'sweetalert2';
 
 const AddAToy = () => {
 
@@ -38,7 +39,17 @@ const AddAToy = () => {
     .then(res => res.json())
     .then(data =>{
       console.log(data);
-    })
+      if(data.insertId){
+        Swal.fire({
+          title: 'Success!',
+          text: 'User Added Successfully',
+          icon: 'success',
+          confirmButtonText: 'Cool'
+        });
+        
+
+      }
+    });
   };
 
   return (

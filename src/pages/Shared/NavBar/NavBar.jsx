@@ -38,6 +38,9 @@ const NavBar = () => {
             </ul>
           </li>
           <li>
+            <Link to="mytoys">My Toys</Link>
+          </li>
+          <li>
             <Link to="/blog">Blogs</Link>
           </li>
           <li>
