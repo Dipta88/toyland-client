@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Tabularrow = ({ toys }) => {
   const { toyname, sellername, selleremail, subcategory, price, rating, availablequantity, url } = toys;
@@ -28,7 +29,7 @@ const Tabularrow = ({ toys }) => {
       <td>{rating}</td>
       <td>{availablequantity}</td>
       <th>
-        <button className="btn btn-ghost btn-xs">details</button>
+        <button className="btn btn-ghost btn-xs"><Link to="/login">Detail</Link></button>
       </th>
     </tr>
   );
