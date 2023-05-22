@@ -4,10 +4,10 @@ import Tabularrow from './Tabularrow';
 
 const AllToy = () => {
   const toys = useLoaderData();
+  
 
   return (
     <div>
-      
       <div className="overflow-x-auto w-full">
         <table className="table w-full">
           {/* head */}

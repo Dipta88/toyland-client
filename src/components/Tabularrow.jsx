@@ -20,7 +20,7 @@ const Tabularrow = ({ toys }) => {
     }).then((result) => {
       if (result.isConfirmed) {
      
-       fetch(`http://localhost:5000/toys/${_id}`,{
+       fetch(`https://toyland-server-henna.vercel.app/toys/${_id}`,{
           method: 'DELETE'
        })
        .then(res => res.json())

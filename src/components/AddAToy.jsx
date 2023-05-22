@@ -29,7 +29,7 @@ const AddAToy = () => {
 
     console.log(AddedToys);
 
-    fetch('http://localhost:5000/toys',{
+    fetch('https://toyland-server-henna.vercel.app/toys',{
       method: 'POST',
       headers: {
         'content-type': 'application/json'
@@ -47,6 +47,8 @@ Swal.fire('Any fool can use a computer')
       }
     });
   };
+
+ 
 
   return (
     <div>

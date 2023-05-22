@@ -40,7 +40,7 @@ const router = createBrowserRouter([
         {
               path: 'all-toys',
               element: <AllToy></AllToy>,
-              loader: () => fetch('http://localhost:5000/toys')
+              loader: () => fetch('https://toyland-server-henna.vercel.app/toys')
 
         },
         {
@@ -51,13 +51,13 @@ const router = createBrowserRouter([
     {
       path: 'mytoys',
       element: <MyToys></MyToys>,
-      loader: () => fetch('http://localhost:5000/toys')
+      loader: () => fetch('https://toyland-server-henna.vercel.app/toys')
 
 },
 {
   path: 'mytoys',
   element: <MyToys></MyToys>,
-  loader: () => fetch('http://localhost:5000/toys')
+  loader: () => fetch('https://toyland-server-henna.vercel.app/toys')
 
 },
 {
