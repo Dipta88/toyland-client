@@ -1,21 +1,33 @@
+import bp1 from '../../../../images/bp1.jpg';
+import bp2 from '../../../../images/bp2.jpg';
+import bp3 from '../../../../images/bp3.jpg';
+import bp4 from '../../../../images/bp4.jpg';
+import offer from '../../../../images/offer.jpg';
+import welc from '../../../../images/welc.jpg';
+import ph1 from '../../../../images/ph1.jpg';
+import ph2 from '../../../../images/ph2.jpg';
+import ph3 from '../../../../images/ph3.jpg';
+import ph4 from '../../../../images/ph4.jpg';
+import ph5 from '../../../../images/ph5.jpg';
+import ph6 from '../../../../images/ph6.jpg';
 
 
 const Banner = () => {
     return (
-      <div className="">
+      <div className="pl-36">
         <div className="justify-between"><div className="carousel w-full">
           
         <div id="item1" className="carousel-item w-full">
-            <img src="/images/bp1.jpg" className="w-full" />
+        <img className="w-full" src={bp1} alt="bp1"/>
         </div>
         <div id="item2" className="carousel-item w-full">
-            <img src="/images/bp2.jpg" className="w-full" />
+        <img className="w-full" src={bp2} alt="bp2"/>
         </div>
         <div id="item3" className="carousel-item w-full">
-            <img src="/images/bp3.jpg" className="w-full" />
+        <img className="w-full" src={bp3} alt="bp3"/>
         </div>
         <div id="item4" className="carousel-item w-full">
-            <img src="/images/bp4.jpg" className="w-full"/>
+        <img className="w-full" src={bp4} alt="bp4"/>
         </div>
     </div><div className="flex justify-center w-full py-2 gap-2">
             <a href="#item1" className="btn btn-2xl">1</a>
@@ -54,7 +66,7 @@ The brick in its present form was launched in 1958. The interlocking principle w
   <div>
   
   <div className="w-3/4 ml-20 mt-20 pb-10 pl-20">
-        <img src="/images/offer.jpg" />
+  <img src={offer} alt="offer"/>
   
   </div>
   
@@ -70,7 +82,7 @@ The brick in its present form was launched in 1958. The interlocking principle w
          <button className="btn btn-secondary mt-5 ml-64">Order Now</button>
 
       <div className="w-full ml-64 mt-20 pb-10">
-        <img src="/images/welc.jpg"/>
+      <img src={welc} alt="welc"/>
         
         </div>
 
@@ -138,19 +150,19 @@ The brick in its present form was launched in 1958. The interlocking principle w
     <div class="grid grid-cols-3 gap-4 pt-20 pl-10 pr-10">
   <div>
   
-  <img src="/images/ph1.jpg"/>
+  <img src={ph1} alt="ph1"/>
         
   </div>
-  <div><img src="/images/ph2.jpg"/>
+  <div> <img src={ph2} alt="ph2"/>
   </div>
-  <div><img src="/images/ph3.jpg"/>
+  <div><img src={ph3} alt="ph3"/>
   </div>
-  <div><img src="/images/ph4.jpg"/>
+  <div><img src={ph4} alt="ph4"/>
   </div>
-  <div><img src="/images/ph5.jpg"/>
+  <div><img src={ph5} alt="ph5"/>
   </div>
   <div>
-  <img src="/images/ph6.jpg"/>
+  <img src={ph6} alt="ph6"/>
         
   </div>
 

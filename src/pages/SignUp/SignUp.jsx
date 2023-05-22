@@ -1,6 +1,8 @@
 import { useContext } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../providers/AuthProvider';
+import bp from '../../../images/bp.png'
+
 
 const SignUp = () => {
   const { createUser } = useContext(AuthContext);
@@ -30,7 +32,7 @@ const SignUp = () => {
           <div className="text-center lg:text-left">
             <h1 className="text-6xl font-bold pl-28 pb-6">Sign Up</h1>
             <div className="w-3/4 ml-24">
-              <img src="/images/bp12.jpg" alt="Signup" />
+            <img src={bp} alt="bp"/>
             </div>
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">

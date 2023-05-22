@@ -1,6 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../providers/AuthProvider';
+import logo from '../../../../images/logo.png';
+import profile from '../../../../images/profile.png';
 
 const NavBar = () => {
   const { user, logOut } = useContext(AuthContext);
@@ -21,7 +23,7 @@ const NavBar = () => {
       <div className="flex-1">
         <a className="btn btn-ghost normal-case text-4xl"><Link to="/">LegoLand</Link></a>
         <div className="w-20 rounded-full">
-          <img src="/images/logo.png" alt="Logo" />
+        <img src={logo} alt="Logo"/>
         </div>
       </div>
       <div className="flex-none">
@@ -49,7 +51,7 @@ const NavBar = () => {
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">
-                <img src="/images/user.png" alt="User" />
+              <img src={profile} alt="profile"/>
               </div>
             </label>
             <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">

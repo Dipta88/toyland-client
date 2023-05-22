@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../providers/AuthProvider';
+import bp12 from '../../../../images/bp12.jpg';
 
 const Login = () => {
   const { user, logOut, signIn } = useContext(AuthContext);
@@ -36,7 +37,7 @@ const Login = () => {
           <div className="text-center lg:text-left">
             <h1 className="text-6xl font-bold pl-20 pb-6">Join The World Of Lego</h1>
             <div className="w-3/4 ml-24">
-              <img src="/images/bp12.jpg" />
+            <img src={bp12} alt="bp12"/>
             </div>
           </div>
           <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">

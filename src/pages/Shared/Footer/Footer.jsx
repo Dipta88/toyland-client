@@ -1,3 +1,4 @@
+import logo from '../../../../images/logo.png';
 
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
       <div>
         
       <div className="w-30 rounded-full">
-      <img className="pl-8" src="/images/logo.png" alt="Logo"/>
+      <img className='pl-8' src={logo} alt="Logo"/>
       <div className="btn btn-ghost normal-case text-4xl">LegoLand</div>
     </div>
       </div> 

@@ -1,12 +1,12 @@
 import React from 'react';
-
+import bp9 from '../../../../images/bp9.jpg';
 const CategoryCard3 = ({ category }) => {
   const { seller, toyName, subCategory, price, availableQuantity, viewDetailsButton } = category;
   
   return (
     <div className="card card-compact w-96 bg-base-100 shadow-xl">
       <figure>
-        <img src="/images/bp9.jpg" alt="Shoes" />
+      <img src={bp9} alt="bp9"/>
       </figure>
       <div className="card-body">
       <h2 className="card-title text-3xl">{toyName}</h2>
